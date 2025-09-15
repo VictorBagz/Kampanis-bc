@@ -659,7 +659,8 @@ h1, h2, h3, h4, h5, h6,
     padding: 4rem 1rem;
     background: var(--primary-red);
     position: relative;
-    z-index: 3;
+    z-index: 1;
+    isolation: isolate;
 }
 
 .mobile-services-section::before {
@@ -688,14 +689,14 @@ h1, h2, h3, h4, h5, h6,
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    z-index: 4;
+    z-index: 2;
 }
 
 .services-header {
     text-align: center;
     margin-bottom: 3rem;
     position: relative;
-    z-index: 5;
+    z-index: 3;
 }
 
 .services-title {
@@ -808,8 +809,9 @@ h1, h2, h3, h4, h5, h6,
     margin-top: 2rem;
     background: var(--white);
     position: relative;
-    z-index: 5;
+    z-index: 1;
     clear: both;
+    isolation: isolate;
 }
 
 .our-works-container {
@@ -821,7 +823,7 @@ h1, h2, h3, h4, h5, h6,
     text-align: center;
     margin-bottom: 3rem;
     position: relative;
-    z-index: 6;
+    z-index: 2;
 }
 
 .our-works-title {
@@ -861,7 +863,7 @@ h1, h2, h3, h4, h5, h6,
     background: var(--white);
     box-shadow: var(--shadow-lg);
     min-height: 400px;
-    z-index: 6;
+    z-index: 2;
 }
 
 .gallery-scroll-btn {
@@ -980,8 +982,9 @@ h1, h2, h3, h4, h5, h6,
     margin-top: 2rem;
     background: var(--gray-50);
     position: relative;
-    z-index: 5;
+    z-index: 1;
     clear: both;
+    isolation: isolate;
 }
 
 .top-picks-container {
@@ -993,7 +996,7 @@ h1, h2, h3, h4, h5, h6,
     text-align: center;
     margin-bottom: 3rem;
     position: relative;
-    z-index: 6;
+    z-index: 2;
 }
 
 .top-picks-title {

@@ -298,7 +298,7 @@ document.addEventListener('DOMContentLoaded', function() {
         dotsSelector: '#worksGalleryNav',
         leftButtonSelector: '#worksScrollLeft',
         rightButtonSelector: '#worksScrollRight',
-        autoScrollInterval: 4000 // 4 seconds for works gallery - systematic interval
+        autoScrollInterval: 3000 // 3 seconds for works gallery
     });
     
     // Initialize Products Gallery
